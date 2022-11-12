@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FD535A1291FE0090071533B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD535A0291FE0090071533B /* AppDelegate.swift */; };
+		2FD535A3291FE0090071533B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD535A2291FE0090071533B /* SceneDelegate.swift */; };
+		2FD535A5291FE0090071533B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD535A4291FE0090071533B /* MainViewController.swift */; };
+		2FD535AA291FE00C0071533B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FD535A9291FE00C0071533B /* Assets.xcassets */; };
+		2FD535AD291FE00C0071533B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FD535AB291FE00C0071533B /* LaunchScreen.storyboard */; };
+		2FD535B5291FF5510071533B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD535B4291FF5510071533B /* LoginViewController.swift */; };
+		2FD535B7291FF5980071533B /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD535B6291FF5980071533B /* TabBarController.swift */; };
+		2FD535B9291FF5D50071533B /* CommunityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD535B8291FF5D50071533B /* CommunityViewController.swift */; };
+		2FD535BB291FF5E20071533B /* VoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD535BA291FF5E20071533B /* VoteViewController.swift */; };
+		2FD535BD291FF5EB0071533B /* ScrapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD535BC291FF5EB0071533B /* ScrapViewController.swift */; };
+		2FD535BF291FF5FD0071533B /* MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD535BE291FF5FD0071533B /* MyPageViewController.swift */; };
+		A4430307DF451467DAD56ACB /* Pods_Wear_i.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3178688A3FF5B92ECA4CE423 /* Pods_Wear_i.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2FD5359D291FE0090071533B /* Wear-i.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wear-i.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FD535A0291FE0090071533B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2FD535A2291FE0090071533B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2FD535A4291FE0090071533B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		2FD535A9291FE00C0071533B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2FD535AC291FE00C0071533B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2FD535AE291FE00C0071533B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FD535B4291FF5510071533B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2FD535B6291FF5980071533B /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		2FD535B8291FF5D50071533B /* CommunityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityViewController.swift; sourceTree = "<group>"; };
+		2FD535BA291FF5E20071533B /* VoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoteViewController.swift; sourceTree = "<group>"; };
+		2FD535BC291FF5EB0071533B /* ScrapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrapViewController.swift; sourceTree = "<group>"; };
+		2FD535BE291FF5FD0071533B /* MyPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageViewController.swift; sourceTree = "<group>"; };
+		3178688A3FF5B92ECA4CE423 /* Pods_Wear_i.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wear_i.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4246528437D7D94A3A9C8C8D /* Pods-Wear-i.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wear-i.debug.xcconfig"; path = "Target Support Files/Pods-Wear-i/Pods-Wear-i.debug.xcconfig"; sourceTree = "<group>"; };
+		DC361EA3B09D60F7D0D32174 /* Pods-Wear-i.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wear-i.release.xcconfig"; path = "Target Support Files/Pods-Wear-i/Pods-Wear-i.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FD5359A291FE0090071533B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4430307DF451467DAD56ACB /* Pods_Wear_i.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13DE5DB541C4551152D4F886 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4246528437D7D94A3A9C8C8D /* Pods-Wear-i.debug.xcconfig */,
+				DC361EA3B09D60F7D0D32174 /* Pods-Wear-i.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2FD53594291FE0090071533B = {
+			isa = PBXGroup;
+			children = (
+				2FD5359F291FE0090071533B /* Wear-i */,
+				2FD5359E291FE0090071533B /* Products */,
+				13DE5DB541C4551152D4F886 /* Pods */,
+				88F777449D64F09C9DB8F573 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2FD5359E291FE0090071533B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FD5359D291FE0090071533B /* Wear-i.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FD5359F291FE0090071533B /* Wear-i */ = {
+			isa = PBXGroup;
+			children = (
+				2FD535A0291FE0090071533B /* AppDelegate.swift */,
+				2FD535A2291FE0090071533B /* SceneDelegate.swift */,
+				2FD535B4291FF5510071533B /* LoginViewController.swift */,
+				2FD535B6291FF5980071533B /* TabBarController.swift */,
+				2FD535A4291FE0090071533B /* MainViewController.swift */,
+				2FD535B8291FF5D50071533B /* CommunityViewController.swift */,
+				2FD535BA291FF5E20071533B /* VoteViewController.swift */,
+				2FD535BC291FF5EB0071533B /* ScrapViewController.swift */,
+				2FD535BE291FF5FD0071533B /* MyPageViewController.swift */,
+				2FD535A9291FE00C0071533B /* Assets.xcassets */,
+				2FD535AB291FE00C0071533B /* LaunchScreen.storyboard */,
+				2FD535AE291FE00C0071533B /* Info.plist */,
+			);
+			path = "Wear-i";
+			sourceTree = "<group>";
+		};
+		88F777449D64F09C9DB8F573 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3178688A3FF5B92ECA4CE423 /* Pods_Wear_i.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FD5359C291FE0090071533B /* Wear-i */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FD535B1291FE00C0071533B /* Build configuration list for PBXNativeTarget "Wear-i" */;
+			buildPhases = (
+				137EAC7D7AEA187D353F5CEA /* [CP] Check Pods Manifest.lock */,
+				2FD53599291FE0090071533B /* Sources */,
+				2FD5359A291FE0090071533B /* Frameworks */,
+				2FD5359B291FE0090071533B /* Resources */,
+				FC0257DBD6DF3786D4C3890F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Wear-i";
+			productName = "Wear-i";
+			productReference = 2FD5359D291FE0090071533B /* Wear-i.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FD53595291FE0090071533B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					2FD5359C291FE0090071533B = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 2FD53598291FE0090071533B /* Build configuration list for PBXProject "Wear-i" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2FD53594291FE0090071533B;
+			productRefGroup = 2FD5359E291FE0090071533B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FD5359C291FE0090071533B /* Wear-i */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FD5359B291FE0090071533B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FD535AD291FE00C0071533B /* LaunchScreen.storyboard in Resources */,
+				2FD535AA291FE00C0071533B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		137EAC7D7AEA187D353F5CEA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Wear-i-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC0257DBD6DF3786D4C3890F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Wear-i/Pods-Wear-i-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Wear-i/Pods-Wear-i-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Wear-i/Pods-Wear-i-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FD53599291FE0090071533B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FD535B5291FF5510071533B /* LoginViewController.swift in Sources */,
+				2FD535BF291FF5FD0071533B /* MyPageViewController.swift in Sources */,
+				2FD535A5291FE0090071533B /* MainViewController.swift in Sources */,
+				2FD535BB291FF5E20071533B /* VoteViewController.swift in Sources */,
+				2FD535B9291FF5D50071533B /* CommunityViewController.swift in Sources */,
+				2FD535BD291FF5EB0071533B /* ScrapViewController.swift in Sources */,
+				2FD535A1291FE0090071533B /* AppDelegate.swift in Sources */,
+				2FD535B7291FF5980071533B /* TabBarController.swift in Sources */,
+				2FD535A3291FE0090071533B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2FD535AB291FE00C0071533B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FD535AC291FE00C0071533B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2FD535AF291FE00C0071533B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2FD535B0291FE00C0071533B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2FD535B2291FE00C0071533B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4246528437D7D94A3A9C8C8D /* Pods-Wear-i.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N7LNF63AFJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Wear-i/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "min.Wear-i";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2FD535B3291FE00C0071533B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC361EA3B09D60F7D0D32174 /* Pods-Wear-i.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N7LNF63AFJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Wear-i/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "min.Wear-i";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FD53598291FE0090071533B /* Build configuration list for PBXProject "Wear-i" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FD535AF291FE00C0071533B /* Debug */,
+				2FD535B0291FE00C0071533B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FD535B1291FE00C0071533B /* Build configuration list for PBXNativeTarget "Wear-i" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FD535B2291FE00C0071533B /* Debug */,
+				2FD535B3291FE00C0071533B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2FD53595291FE0090071533B /* Project object */;
+}
