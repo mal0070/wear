@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F280E67297E6EC10068C9E3 /* WeatherSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F280E66297E6EC10068C9E3 /* WeatherSectionView.swift */; };
+		2F280E69297E82ED0068C9E3 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F280E68297E82ED0068C9E3 /* WeatherViewController.swift */; };
+		2F280E6B297E83E30068C9E3 /* RecommendSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F280E6A297E83E30068C9E3 /* RecommendSectionView.swift */; };
+		2F280E6D297E8BB30068C9E3 /* RecommendCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F280E6C297E8BB30068C9E3 /* RecommendCollectionViewCell.swift */; };
+		2F280E712981401A0068C9E3 /* AnimationTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F280E702981401A0068C9E3 /* AnimationTransition.swift */; };
+		2F280E73298173380068C9E3 /* WeatherCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F280E72298173380068C9E3 /* WeatherCollectionViewCell.swift */; };
+		2F73F6F8296E8C3E0044C8D8 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 2F73F6F7296E8C3E0044C8D8 /* Alamofire */; };
+		2F73F6FA296E8DB50044C8D8 /* InitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F73F6F9296E8DB50044C8D8 /* InitViewController.swift */; };
+		2F73F6FC296EB5D50044C8D8 /* Pretendard-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2F73F6FB296EB5D50044C8D8 /* Pretendard-Medium.otf */; };
+		2F73F6FE296EB5ED0044C8D8 /* Pretendard-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2F73F6FD296EB5ED0044C8D8 /* Pretendard-Bold.otf */; };
+		2F73F701296EBAC40044C8D8 /* IdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F73F700296EBAC40044C8D8 /* IdViewController.swift */; };
+		2F73F703296EBB1E0044C8D8 /* PassWordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F73F702296EBB1E0044C8D8 /* PassWordViewController.swift */; };
+		2F73F705296EBB2D0044C8D8 /* NickNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F73F704296EBB2D0044C8D8 /* NickNameViewController.swift */; };
+		2F73F707296FE2290044C8D8 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F73F706296FE2290044C8D8 /* InfoViewController.swift */; };
+		2F73F70A297009BC0044C8D8 /* MyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F73F709297009BC0044C8D8 /* MyButton.swift */; };
 		2FD535A1291FE0090071533B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD535A0291FE0090071533B /* AppDelegate.swift */; };
 		2FD535A3291FE0090071533B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD535A2291FE0090071533B /* SceneDelegate.swift */; };
 		2FD535A5291FE0090071533B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD535A4291FE0090071533B /* MainViewController.swift */; };
@@ -18,10 +33,27 @@
 		2FD535BB291FF5E20071533B /* VoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD535BA291FF5E20071533B /* VoteViewController.swift */; };
 		2FD535BD291FF5EB0071533B /* ScrapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD535BC291FF5EB0071533B /* ScrapViewController.swift */; };
 		2FD535BF291FF5FD0071533B /* MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD535BE291FF5FD0071533B /* MyPageViewController.swift */; };
+		2FD54A3F2937200200308FC1 /* Pretendard-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2FD54A3E2937200200308FC1 /* Pretendard-ExtraBold.otf */; };
+		2FD54A412937203F00308FC1 /* Pretendard-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2FD54A402937203F00308FC1 /* Pretendard-Light.otf */; };
+		2FFA3E8F292C75670009D35B /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFA3E8E292C75670009D35B /* SignUpViewController.swift */; };
 		A4430307DF451467DAD56ACB /* Pods_Wear_i.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3178688A3FF5B92ECA4CE423 /* Pods_Wear_i.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2F280E66297E6EC10068C9E3 /* WeatherSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherSectionView.swift; sourceTree = "<group>"; };
+		2F280E68297E82ED0068C9E3 /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		2F280E6A297E83E30068C9E3 /* RecommendSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendSectionView.swift; sourceTree = "<group>"; };
+		2F280E6C297E8BB30068C9E3 /* RecommendCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendCollectionViewCell.swift; sourceTree = "<group>"; };
+		2F280E702981401A0068C9E3 /* AnimationTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTransition.swift; sourceTree = "<group>"; };
+		2F280E72298173380068C9E3 /* WeatherCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCollectionViewCell.swift; sourceTree = "<group>"; };
+		2F73F6F9296E8DB50044C8D8 /* InitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitViewController.swift; sourceTree = "<group>"; };
+		2F73F6FB296EB5D50044C8D8 /* Pretendard-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Medium.otf"; sourceTree = "<group>"; };
+		2F73F6FD296EB5ED0044C8D8 /* Pretendard-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Bold.otf"; sourceTree = "<group>"; };
+		2F73F700296EBAC40044C8D8 /* IdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdViewController.swift; sourceTree = "<group>"; };
+		2F73F702296EBB1E0044C8D8 /* PassWordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassWordViewController.swift; sourceTree = "<group>"; };
+		2F73F704296EBB2D0044C8D8 /* NickNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NickNameViewController.swift; sourceTree = "<group>"; };
+		2F73F706296FE2290044C8D8 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		2F73F709297009BC0044C8D8 /* MyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyButton.swift; sourceTree = "<group>"; };
 		2FD5359D291FE0090071533B /* Wear-i.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wear-i.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FD535A0291FE0090071533B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2FD535A2291FE0090071533B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -35,6 +67,9 @@
 		2FD535BA291FF5E20071533B /* VoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoteViewController.swift; sourceTree = "<group>"; };
 		2FD535BC291FF5EB0071533B /* ScrapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrapViewController.swift; sourceTree = "<group>"; };
 		2FD535BE291FF5FD0071533B /* MyPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageViewController.swift; sourceTree = "<group>"; };
+		2FD54A3E2937200200308FC1 /* Pretendard-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-ExtraBold.otf"; sourceTree = "<group>"; };
+		2FD54A402937203F00308FC1 /* Pretendard-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Light.otf"; sourceTree = "<group>"; };
+		2FFA3E8E292C75670009D35B /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		3178688A3FF5B92ECA4CE423 /* Pods_Wear_i.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wear_i.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4246528437D7D94A3A9C8C8D /* Pods-Wear-i.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wear-i.debug.xcconfig"; path = "Target Support Files/Pods-Wear-i/Pods-Wear-i.debug.xcconfig"; sourceTree = "<group>"; };
 		DC361EA3B09D60F7D0D32174 /* Pods-Wear-i.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wear-i.release.xcconfig"; path = "Target Support Files/Pods-Wear-i/Pods-Wear-i.release.xcconfig"; sourceTree = "<group>"; };
@@ -46,6 +81,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4430307DF451467DAD56ACB /* Pods_Wear_i.framework in Frameworks */,
+				2F73F6F8296E8C3E0044C8D8 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,8 +94,57 @@
 				4246528437D7D94A3A9C8C8D /* Pods-Wear-i.debug.xcconfig */,
 				DC361EA3B09D60F7D0D32174 /* Pods-Wear-i.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		2F73F6FF296EBA5F0044C8D8 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				2F73F700296EBAC40044C8D8 /* IdViewController.swift */,
+				2F73F702296EBB1E0044C8D8 /* PassWordViewController.swift */,
+				2F73F704296EBB2D0044C8D8 /* NickNameViewController.swift */,
+				2FFA3E8E292C75670009D35B /* SignUpViewController.swift */,
+				2F73F706296FE2290044C8D8 /* InfoViewController.swift */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		2F73F7082970099D0044C8D8 /* Items */ = {
+			isa = PBXGroup;
+			children = (
+				2F73F709297009BC0044C8D8 /* MyButton.swift */,
+				2F280E702981401A0068C9E3 /* AnimationTransition.swift */,
+			);
+			path = Items;
+			sourceTree = "<group>";
+		};
+		2F73F70C2971779A0044C8D8 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				2FD535B6291FF5980071533B /* TabBarController.swift */,
+				2F73F6F9296E8DB50044C8D8 /* InitViewController.swift */,
+				2FFA3E90292CBD560009D35B /* Login */,
+				2F73F6FF296EBA5F0044C8D8 /* SignUp */,
+				2F73F70D297254E50044C8D8 /* Main */,
+				2FD535B8291FF5D50071533B /* CommunityViewController.swift */,
+				2FD535BA291FF5E20071533B /* VoteViewController.swift */,
+				2FD535BC291FF5EB0071533B /* ScrapViewController.swift */,
+				2FD535BE291FF5FD0071533B /* MyPageViewController.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		2F73F70D297254E50044C8D8 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				2FD535A4291FE0090071533B /* MainViewController.swift */,
+				2F280E66297E6EC10068C9E3 /* WeatherSectionView.swift */,
+				2F280E72298173380068C9E3 /* WeatherCollectionViewCell.swift */,
+				2F280E68297E82ED0068C9E3 /* WeatherViewController.swift */,
+				2F280E6A297E83E30068C9E3 /* RecommendSectionView.swift */,
+				2F280E6C297E8BB30068C9E3 /* RecommendCollectionViewCell.swift */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 		2FD53594291FE0090071533B = {
@@ -85,18 +170,33 @@
 			children = (
 				2FD535A0291FE0090071533B /* AppDelegate.swift */,
 				2FD535A2291FE0090071533B /* SceneDelegate.swift */,
-				2FD535B4291FF5510071533B /* LoginViewController.swift */,
-				2FD535B6291FF5980071533B /* TabBarController.swift */,
-				2FD535A4291FE0090071533B /* MainViewController.swift */,
-				2FD535B8291FF5D50071533B /* CommunityViewController.swift */,
-				2FD535BA291FF5E20071533B /* VoteViewController.swift */,
-				2FD535BC291FF5EB0071533B /* ScrapViewController.swift */,
-				2FD535BE291FF5FD0071533B /* MyPageViewController.swift */,
+				2F73F7082970099D0044C8D8 /* Items */,
+				2F73F70C2971779A0044C8D8 /* Scenes */,
 				2FD535A9291FE00C0071533B /* Assets.xcassets */,
 				2FD535AB291FE00C0071533B /* LaunchScreen.storyboard */,
 				2FD535AE291FE00C0071533B /* Info.plist */,
+				2FD54A3D29371F9E00308FC1 /* Font */,
 			);
 			path = "Wear-i";
+			sourceTree = "<group>";
+		};
+		2FD54A3D29371F9E00308FC1 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				2F73F6FD296EB5ED0044C8D8 /* Pretendard-Bold.otf */,
+				2F73F6FB296EB5D50044C8D8 /* Pretendard-Medium.otf */,
+				2FD54A3E2937200200308FC1 /* Pretendard-ExtraBold.otf */,
+				2FD54A402937203F00308FC1 /* Pretendard-Light.otf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		2FFA3E90292CBD560009D35B /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				2FD535B4291FF5510071533B /* LoginViewController.swift */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 		88F777449D64F09C9DB8F573 /* Frameworks */ = {
@@ -125,6 +225,9 @@
 			dependencies = (
 			);
 			name = "Wear-i";
+			packageProductDependencies = (
+				2F73F6F7296E8C3E0044C8D8 /* Alamofire */,
+			);
 			productName = "Wear-i";
 			productReference = 2FD5359D291FE0090071533B /* Wear-i.app */;
 			productType = "com.apple.product-type.application";
@@ -153,6 +256,9 @@
 				Base,
 			);
 			mainGroup = 2FD53594291FE0090071533B;
+			packageReferences = (
+				2F73F6F6296E8C3E0044C8D8 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 2FD5359E291FE0090071533B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -168,7 +274,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2FD535AD291FE00C0071533B /* LaunchScreen.storyboard in Resources */,
+				2F73F6FE296EB5ED0044C8D8 /* Pretendard-Bold.otf in Resources */,
+				2F73F6FC296EB5D50044C8D8 /* Pretendard-Medium.otf in Resources */,
+				2FD54A412937203F00308FC1 /* Pretendard-Light.otf in Resources */,
 				2FD535AA291FE00C0071533B /* Assets.xcassets in Resources */,
+				2FD54A3F2937200200308FC1 /* Pretendard-ExtraBold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,12 +331,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F73F703296EBB1E0044C8D8 /* PassWordViewController.swift in Sources */,
+				2F280E69297E82ED0068C9E3 /* WeatherViewController.swift in Sources */,
 				2FD535B5291FF5510071533B /* LoginViewController.swift in Sources */,
+				2F73F701296EBAC40044C8D8 /* IdViewController.swift in Sources */,
+				2F280E6B297E83E30068C9E3 /* RecommendSectionView.swift in Sources */,
 				2FD535BF291FF5FD0071533B /* MyPageViewController.swift in Sources */,
+				2F73F707296FE2290044C8D8 /* InfoViewController.swift in Sources */,
 				2FD535A5291FE0090071533B /* MainViewController.swift in Sources */,
+				2F280E67297E6EC10068C9E3 /* WeatherSectionView.swift in Sources */,
+				2F280E712981401A0068C9E3 /* AnimationTransition.swift in Sources */,
 				2FD535BB291FF5E20071533B /* VoteViewController.swift in Sources */,
+				2F73F70A297009BC0044C8D8 /* MyButton.swift in Sources */,
+				2F280E6D297E8BB30068C9E3 /* RecommendCollectionViewCell.swift in Sources */,
+				2F280E73298173380068C9E3 /* WeatherCollectionViewCell.swift in Sources */,
+				2FFA3E8F292C75670009D35B /* SignUpViewController.swift in Sources */,
+				2F73F6FA296E8DB50044C8D8 /* InitViewController.swift in Sources */,
 				2FD535B9291FF5D50071533B /* CommunityViewController.swift in Sources */,
 				2FD535BD291FF5EB0071533B /* ScrapViewController.swift in Sources */,
+				2F73F705296EBB2D0044C8D8 /* NickNameViewController.swift in Sources */,
 				2FD535A1291FE0090071533B /* AppDelegate.swift in Sources */,
 				2FD535B7291FF5980071533B /* TabBarController.swift in Sources */,
 				2FD535A3291FE0090071533B /* SceneDelegate.swift in Sources */,
@@ -439,6 +562,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2F73F6F6296E8C3E0044C8D8 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2F73F6F7296E8C3E0044C8D8 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2F73F6F6296E8C3E0044C8D8 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2FD53595291FE0090071533B /* Project object */;
 }

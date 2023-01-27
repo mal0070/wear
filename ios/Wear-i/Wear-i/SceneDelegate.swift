@@ -19,8 +19,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window = UIWindow(windowScene: windowScene)
         window?.backgroundColor = .systemBackground
         window?.makeKeyAndVisible()
+
         
-        let base = UINavigationController(rootViewController: LoginViewController())
+        let base = UINavigationController(rootViewController: InitViewController())
         self.window?.rootViewController = base //rootViewController 설정(맨 처음 보여질 것)
         
     }
