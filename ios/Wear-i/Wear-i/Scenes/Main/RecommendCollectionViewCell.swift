@@ -7,12 +7,15 @@
 
 import SnapKit
 import UIKit
+import Kingfisher
 
 final class RecommendCollectionViewCell : UICollectionViewCell {
     private lazy var clothImageView : UIImageView = {
         let imageView = UIImageView()
         imageView.contentMode = .scaleAspectFill
         imageView.backgroundColor = .lightGray
+
+        
         return imageView
     }()
     
@@ -44,6 +47,9 @@ final class RecommendCollectionViewCell : UICollectionViewCell {
     func setup(){
         setupLayout()
         userLabel.text = "사용자 정보"
+        
+        
+        
     }
 }
 
@@ -68,3 +74,4 @@ private extension RecommendCollectionViewCell {
         
     }
 }
+

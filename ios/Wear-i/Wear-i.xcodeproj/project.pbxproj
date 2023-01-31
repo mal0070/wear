@@ -13,6 +13,9 @@
 		2F280E6D297E8BB30068C9E3 /* RecommendCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F280E6C297E8BB30068C9E3 /* RecommendCollectionViewCell.swift */; };
 		2F280E712981401A0068C9E3 /* AnimationTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F280E702981401A0068C9E3 /* AnimationTransition.swift */; };
 		2F280E73298173380068C9E3 /* WeatherCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F280E72298173380068C9E3 /* WeatherCollectionViewCell.swift */; };
+		2F280E75298505730068C9E3 /* DisMissAnim.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F280E74298505730068C9E3 /* DisMissAnim.swift */; };
+		2F280E7829850C910068C9E3 /* Fashion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F280E7729850C910068C9E3 /* Fashion.swift */; };
+		2F280EAE2988E8000068C9E3 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 2F280EAD2988E8000068C9E3 /* Kingfisher */; };
 		2F73F6F8296E8C3E0044C8D8 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 2F73F6F7296E8C3E0044C8D8 /* Alamofire */; };
 		2F73F6FA296E8DB50044C8D8 /* InitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F73F6F9296E8DB50044C8D8 /* InitViewController.swift */; };
 		2F73F6FC296EB5D50044C8D8 /* Pretendard-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2F73F6FB296EB5D50044C8D8 /* Pretendard-Medium.otf */; };
@@ -46,6 +49,8 @@
 		2F280E6C297E8BB30068C9E3 /* RecommendCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendCollectionViewCell.swift; sourceTree = "<group>"; };
 		2F280E702981401A0068C9E3 /* AnimationTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTransition.swift; sourceTree = "<group>"; };
 		2F280E72298173380068C9E3 /* WeatherCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCollectionViewCell.swift; sourceTree = "<group>"; };
+		2F280E74298505730068C9E3 /* DisMissAnim.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DisMissAnim.swift; path = ../../../../../../Documents/DisMissAnim.swift; sourceTree = "<group>"; };
+		2F280E7729850C910068C9E3 /* Fashion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Fashion.swift; path = ../../../../../../Documents/Fashion.swift; sourceTree = "<group>"; };
 		2F73F6F9296E8DB50044C8D8 /* InitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitViewController.swift; sourceTree = "<group>"; };
 		2F73F6FB296EB5D50044C8D8 /* Pretendard-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Medium.otf"; sourceTree = "<group>"; };
 		2F73F6FD296EB5ED0044C8D8 /* Pretendard-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Bold.otf"; sourceTree = "<group>"; };
@@ -80,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F280EAE2988E8000068C9E3 /* Kingfisher in Frameworks */,
 				A4430307DF451467DAD56ACB /* Pods_Wear_i.framework in Frameworks */,
 				2F73F6F8296E8C3E0044C8D8 /* Alamofire in Frameworks */,
 			);
@@ -95,6 +101,14 @@
 				DC361EA3B09D60F7D0D32174 /* Pods-Wear-i.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		2F280E7629850C650068C9E3 /* NetworkingModel */ = {
+			isa = PBXGroup;
+			children = (
+				2F280E7729850C910068C9E3 /* Fashion.swift */,
+			);
+			path = NetworkingModel;
 			sourceTree = "<group>";
 		};
 		2F73F6FF296EBA5F0044C8D8 /* SignUp */ = {
@@ -114,6 +128,7 @@
 			children = (
 				2F73F709297009BC0044C8D8 /* MyButton.swift */,
 				2F280E702981401A0068C9E3 /* AnimationTransition.swift */,
+				2F280E74298505730068C9E3 /* DisMissAnim.swift */,
 			);
 			path = Items;
 			sourceTree = "<group>";
@@ -170,6 +185,7 @@
 			children = (
 				2FD535A0291FE0090071533B /* AppDelegate.swift */,
 				2FD535A2291FE0090071533B /* SceneDelegate.swift */,
+				2F280E7629850C650068C9E3 /* NetworkingModel */,
 				2F73F7082970099D0044C8D8 /* Items */,
 				2F73F70C2971779A0044C8D8 /* Scenes */,
 				2FD535A9291FE00C0071533B /* Assets.xcassets */,
@@ -227,6 +243,7 @@
 			name = "Wear-i";
 			packageProductDependencies = (
 				2F73F6F7296E8C3E0044C8D8 /* Alamofire */,
+				2F280EAD2988E8000068C9E3 /* Kingfisher */,
 			);
 			productName = "Wear-i";
 			productReference = 2FD5359D291FE0090071533B /* Wear-i.app */;
@@ -258,6 +275,7 @@
 			mainGroup = 2FD53594291FE0090071533B;
 			packageReferences = (
 				2F73F6F6296E8C3E0044C8D8 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				2F280EAC2988E8000068C9E3 /* XCRemoteSwiftPackageReference "Kingfisher" */,
 			);
 			productRefGroup = 2FD5359E291FE0090071533B /* Products */;
 			projectDirPath = "";
@@ -339,6 +357,7 @@
 				2FD535BF291FF5FD0071533B /* MyPageViewController.swift in Sources */,
 				2F73F707296FE2290044C8D8 /* InfoViewController.swift in Sources */,
 				2FD535A5291FE0090071533B /* MainViewController.swift in Sources */,
+				2F280E7829850C910068C9E3 /* Fashion.swift in Sources */,
 				2F280E67297E6EC10068C9E3 /* WeatherSectionView.swift in Sources */,
 				2F280E712981401A0068C9E3 /* AnimationTransition.swift in Sources */,
 				2FD535BB291FF5E20071533B /* VoteViewController.swift in Sources */,
@@ -352,6 +371,7 @@
 				2F73F705296EBB2D0044C8D8 /* NickNameViewController.swift in Sources */,
 				2FD535A1291FE0090071533B /* AppDelegate.swift in Sources */,
 				2FD535B7291FF5980071533B /* TabBarController.swift in Sources */,
+				2F280E75298505730068C9E3 /* DisMissAnim.swift in Sources */,
 				2FD535A3291FE0090071533B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -564,6 +584,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		2F280EAC2988E8000068C9E3 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 		2F73F6F6296E8C3E0044C8D8 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
@@ -575,6 +603,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		2F280EAD2988E8000068C9E3 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2F280EAC2988E8000068C9E3 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
 		2F73F6F7296E8C3E0044C8D8 /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 2F73F6F6296E8C3E0044C8D8 /* XCRemoteSwiftPackageReference "Alamofire" */;

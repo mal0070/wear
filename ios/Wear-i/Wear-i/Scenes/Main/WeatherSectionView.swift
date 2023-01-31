@@ -56,12 +56,6 @@ extension WeatherSectionView: UICollectionViewDelegateFlowLayout {
     
     //셀 클릭 -> frame을 애니메이션 객체에 넘겨줌
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        guard let cell = collectionView.cellForItem(at: indexPath) else {
-            return
-        }
-        //좌표게 전환 nil일시 윈도우 좌표계
-       // cellOriginPoint = cell.superview?.convert(cell.center, to: nil)
-        
     }
     
 }

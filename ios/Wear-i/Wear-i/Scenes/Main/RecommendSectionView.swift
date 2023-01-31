@@ -7,14 +7,18 @@
 
 import UIKit
 import SnapKit
+import Alamofire
 
 final class RecommendSectionView: UIView {
+    
+    private var recommendFashion: [Fashion] = []
     
     
     private var previousIndex = 0
     private var minItemSpacing: CGFloat = 16.0
     
     private lazy var collectionView: UICollectionView = {
+
         let layout = UICollectionViewFlowLayout()
         layout.scrollDirection = .horizontal
         
@@ -49,8 +53,8 @@ final class RecommendSectionView: UIView {
             $0.top.equalToSuperview().inset(16.0)
             $0.height.equalTo(snp.width)
             $0.bottom.equalToSuperview()
-            
         }
+        requestRecommendFashion()
     }
     
     required init?(coder: NSCoder) {
@@ -60,9 +64,22 @@ final class RecommendSectionView: UIView {
     
 }
 
+//MARK: Networking
+extension RecommendSectionView {
+    private func requestRecommendFashion(){
+        let urlString = "http://3.35.150.76:8080/v1/community?count=10"
+        AF.request(urlString).responseDecodable(of: Fashion.self) { [weak self] response in
+                guard case .success(let data) = response.result else {return}
+            print(data.payload) //이게 url
+            }
+        .resume()
+    }
+}
+
+
 extension RecommendSectionView: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        8
+        10
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
@@ -83,8 +100,11 @@ extension RecommendSectionView: UICollectionViewDelegateFlowLayout, UICollection
     }
    
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        //post vc
+        //postVc
+    
     }
+    
+
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
         let cellWidth : CGFloat = frame.width*0.8
@@ -126,6 +146,7 @@ extension RecommendSectionView: UICollectionViewDelegateFlowLayout, UICollection
         }
     }
     
+    
     func animateZoomforCell(zoomCell: RecommendCollectionViewCell) {
         RecommendSectionView.animate(withDuration: 0.2, delay: 0, options: .curveEaseOut, animations: {zoomCell.transform = .identity}, completion: nil)
     }
@@ -133,7 +154,10 @@ extension RecommendSectionView: UICollectionViewDelegateFlowLayout, UICollection
     func animateZoomforCellremove(zoomCell: RecommendCollectionViewCell) {
         RecommendSectionView.animate(withDuration: 0.2, delay: 0, options: .curveEaseOut, animations: {zoomCell.transform = CGAffineTransform(scaleX: 0.5, y: 0.5) })
     }
-    
 }
+
+
+
+
 
 
