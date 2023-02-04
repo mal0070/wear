@@ -8,13 +8,14 @@
 import SnapKit
 import UIKit
 import Kingfisher
+import Alamofire
 
 final class RecommendCollectionViewCell : UICollectionViewCell {
-    private lazy var clothImageView : UIImageView = {
+    
+    lazy var clothImageView : UIImageView = {
         let imageView = UIImageView()
         imageView.contentMode = .scaleAspectFill
         imageView.backgroundColor = .lightGray
-
         
         return imageView
     }()
@@ -74,4 +75,5 @@ private extension RecommendCollectionViewCell {
         
     }
 }
+
 

@@ -13,14 +13,26 @@ class CommunityViewController: UIViewController {
         self.init()
         self.view.backgroundColor = bgColor
     }
-
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         setupNavigationBar()
-        
-        
     }
     
+    
+    
+    //MARK: Animation
+    @objc func addPost(){
+            
+        }
+    @objc func filterToast(){
+        
+    }
+
+}
+
+private extension CommunityViewController {
     //MARK: Custom NavigationBar
     func setupNavigationBar(){
         let title = UILabel()
@@ -35,17 +47,11 @@ class CommunityViewController: UIViewController {
         navigationItem.rightBarButtonItems = [addButton,filterButton]
         addButton.tintColor = .white
         filterButton.tintColor = .white
-       
-      
-    }
-    
-    //MARK: Animation
-    @objc func addPost(){
-            
-        }
-    @objc func filterToast(){
         
     }
-
+    
+    //MARK: Layout
+    func setupLayout() {
+        
+    }
 }
-

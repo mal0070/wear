@@ -8,10 +8,11 @@
 import UIKit
 import SnapKit
 import Alamofire
+import Kingfisher
 
 final class RecommendSectionView: UIView {
     
-    private var recommendFashion: [Fashion] = []
+    private var fashion: Fashion?
     
     
     private var previousIndex = 0
@@ -43,9 +44,12 @@ final class RecommendSectionView: UIView {
     }()
     
     
+    
     override init(frame: CGRect) {
         super.init(frame: .zero)
-        
+    /*init(fashion: Fashion){
+        self.fashion = fashion
+        super.init(frame: .zero)*/
         self.addSubview(collectionView)
         collectionView.snp.makeConstraints{
             $0.leading.equalToSuperview()
@@ -70,7 +74,9 @@ extension RecommendSectionView {
         let urlString = "http://3.35.150.76:8080/v1/community?count=10"
         AF.request(urlString).responseDecodable(of: Fashion.self) { [weak self] response in
                 guard case .success(let data) = response.result else {return}
-            print(data.payload) //이게 url
+            //print(data.payload) //이게 url
+            self?.fashion = data
+            self?.collectionView.reloadData()
             }
         .resume()
     }
@@ -84,6 +90,12 @@ extension RecommendSectionView: UICollectionViewDataSource {
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "RecommendCollectionViewCell", for: indexPath) as? RecommendCollectionViewCell
+        
+        let url = fashion?.payload[indexPath.row] ?? "url"
+        guard let imgURL = URL(string: url) else {
+            return cell ?? UICollectionViewCell()
+        } //옵셔널 바인딩
+        cell?.clothImageView.kf.setImage(with: imgURL)
         cell?.setup()
         return cell ?? UICollectionViewCell()
     }

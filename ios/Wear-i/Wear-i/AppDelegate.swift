@@ -16,8 +16,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
-        return true
+        //탭바 배경색 변경
+        if #available(iOS 15.0, *) {
+            let appearance = UITabBarAppearance()
+            appearance.configureWithOpaqueBackground()
+                
+            //바꾸고 싶은 색으로 backgroundColor를 설정
+            UITabBar.appearance().backgroundColor = UIColor(named: "w_background")
+            }
+                return true
     }
 
     // MARK: UISceneSession Lifecycle

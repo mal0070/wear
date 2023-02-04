@@ -14,6 +14,7 @@ final class MainViewController: UIViewController {
         self.init()
         self.view.backgroundColor = bgColor
     }
+    
     //recommedCell이 collectionView임. 그러면 이거만 collectionView 하면 됨 그냥
     
     private let scrollView = UIScrollView()
@@ -42,6 +43,7 @@ final class MainViewController: UIViewController {
         super.viewDidLoad()
         setupNavigationBar()
         setupLayout()
+       // view.backgroundColor = UIColor(named: "w_background")
         
     }
 }
@@ -58,7 +60,6 @@ private extension MainViewController{
         let noticeButton = UIBarButtonItem(title: "", image: UIImage(systemName: "bell"), target: self, action: #selector(showNotice))
         navigationItem.rightBarButtonItem = noticeButton
         noticeButton.tintColor = .white
-        //MARK: Property Layout
     }
     func setupLayout() {
         view.addSubview(scrollView)

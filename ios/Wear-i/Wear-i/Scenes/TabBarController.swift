@@ -9,14 +9,11 @@ import UIKit
 import Foundation
 
 class TabBarController: UITabBarController, UITabBarControllerDelegate {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.delegate = self
-    }
-    
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
+        //self.delegate = self
+        
         
         let mainView = UINavigationController(rootViewController: MainViewController(bgColor: UIColor(named: "w_background") ?? UIColor.black))
         let communityView = UINavigationController(rootViewController: CommunityViewController(bgColor: UIColor(named: "w_background") ?? UIColor.black))
@@ -24,7 +21,7 @@ class TabBarController: UITabBarController, UITabBarControllerDelegate {
         let scrapView = UINavigationController(rootViewController: ScrapViewController(bgColor: UIColor(named: "w_background") ?? UIColor.black))
         let myPageView = UINavigationController(rootViewController: MyPageViewController(bgColor: UIColor(named: "w_background") ?? UIColor.black))
         
-
+        
         
         //탭바 아이템 설정
         self.tabBar.tintColor = .white
@@ -34,15 +31,14 @@ class TabBarController: UITabBarController, UITabBarControllerDelegate {
         voteView.tabBarItem = UITabBarItem(title: nil, image: UIImage(named: "픽(투표)"), selectedImage: nil)
         scrapView.tabBarItem = UITabBarItem(title: nil, image: UIImage(named: "스크랩북"), selectedImage: nil)
         myPageView.tabBarItem = UITabBarItem(title: nil, image: UIImage(named: "마이페이지"), selectedImage: nil)
-     
         
+        self.tabBar.isTranslucent = false //불투명
+        self.tabBar.barTintColor = UIColor(named: "w_background")
         ///탭바컨트롤러에 뷰 컨트롤러를 array형식으로 넣어줌
         self.viewControllers = [mainView, communityView, voteView, scrapView, myPageView]
-
     }
     
-
-
-
 }
-
+    /*  override func viewWillAppear(_ animated: Bool) {
+     super.viewWillAppear(animated)
+}*/
